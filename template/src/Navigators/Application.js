@@ -9,7 +9,6 @@ import { navigationRef } from './utils'
 
 const Stack = createStackNavigator()
 
-// @refresh reset
 const ApplicationNavigator = () => {
   const { Layout, darkMode, NavigationTheme } = useTheme()
   const { colors } = NavigationTheme
